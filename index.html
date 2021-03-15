@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>github.com/new</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="contents">
+        <div class="contents-header">
+          <h2>Create a new repository</h2>
+          <p>
+            A repository contains all project files, including the revision
+            history. Already have a project repository elsewhere?
+            <span>Import a repository.</span>
+          </p>
+        </div>
+
+        <div class="contents-repo">
+          <span class="check-title">Repository template</span>
+          <span class="check-subinfo"
+            >Start your repository with a template repository's contents.</span
+          >
+          <button>No template ▼</button>
+        </div>
+        <div class="contents-sign">
+          <div class="contents-user">
+            <div class="contents-info">
+              <span>Owner<span class="required"> * </span></span>
+              <div>
+                <button>9bin08 ▼</button><span class="seperate">/</span>
+              </div>
+            </div>
+
+            <div class="contents-info">
+              <span>Repository name<span class="required"> * </span></span>
+              <input class="contents-reponame" type="text" />
+            </div>
+          </div>
+          <span>
+            Great repository names are short and memorable. Need inspiration?
+            How about <span class="waffle">scaling-waffle?</span>
+          </span>
+          <div class="contents-option">
+            <span
+              >Description <span class="check-subinfo">(optional)</span></span
+            >
+            <input type="text /" />
+          </div>
+        </div>
+        <div class="contents-type">
+          <label for="" class="public">
+            <input type="radio" name="type" checked="checked" />
+            <img src="./images/book-solid.svg" alt="publicimg" />
+            <div class="type-info">
+              <span class="type-title">Public</span>
+              <span class="type-subinfo"
+                >Anyone on the internet can see this repository. You choose who
+                can commit.</span
+              >
+            </div>
+          </label>
+          <label for="" class="public">
+            <input type="radio" name="type" />
+            <img src="./images/lock-solid.svg" alt="publicimg" />
+            <div class="type-info">
+              <span class="type-title">Private</span>
+              <span class="type-subinfo"
+                >You choose who can see and commit to this repository.</span
+              >
+            </div>
+          </label>
+        </div>
+        <div class="contents-check">
+          <span class="check-title">Initialize this repository with:</span>
+          <span class="check-subinfo"
+            >Skip this step if you’re importing an existing repository.</span
+          >
+          <div class="contents-check-option">
+            <input type="checkbox" />
+            <div class="check-info">
+              <span class="check-title">Add a README file</span>
+              <span class="check-subinfo"
+                >This is where you can write a long description for your
+                project. <span class="check-link">Learn more.</span></span
+              >
+            </div>
+          </div>
+          <div class="contents-check-option">
+            <input type="checkbox" />
+            <div class="check-info">
+              <span class="check-title">Add .gitignore</span>
+              <span class="check-subinfo"
+                >Choose which files not to track from a list of templates.
+                <span class="check-link">Learn more.</span></span
+              >
+            </div>
+          </div>
+          <div class="contents-check-option">
+            <input type="checkbox" />
+            <div class="check-info">
+              <span class="check-title">Choose a license</span>
+              <span class="check-subinfo"
+                >A license tells others what they can and can't do with your
+                code.<span class="check-link">Learn more.</span></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="contents-button">
+          <button>Creacte repository</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
